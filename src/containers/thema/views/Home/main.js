@@ -10,12 +10,12 @@ export default class Home extends Component {
   render () {
     return (
       <div className='animated fadeIn'>
-        <div class="container-fluid">
-            <div class="row">
-              <div class="col-4">
+        <div className="container-fluid">
+            <div className="row">
+              <div className="col-4">
                 <Coin />
               </div>
-              <div class="col-8">
+              <div className="col-8">
                   <CompanyData />
               </div>
 
