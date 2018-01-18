@@ -56,13 +56,12 @@ class Header extends Component {
       <header style={{zIndex: 500000}} className="app-header navbar">
         {/* <NavbarToggler className="d-lg-none" onClick={this.mobileSidebarToggle}>&#9776;</NavbarToggler> */}
         <NavbarBrand href="#">
-            <img src={'https://raw.githubusercontent.com/grinono/coinValue/master/images/logo.png'} width='45' className="img-avatar" alt="Logo"/>
-
+            <img style={{marginLeft:50}} src={'https://raw.githubusercontent.com/grinono/coinValue/master/images/logo.png'} width='45' className="img-avatar" alt="Logo"/>
         </NavbarBrand>
         {/* <NavbarToggler className="d-md-down-none" onClick={this.sidebarToggle}>&#9776;</NavbarToggler> */}
         <Nav className="d-md-down-none" navbar>
           <NavItem className="px-3">
-            <Link to="/">Dashboard
+            <Link to="/main">Dashboard
             {/* <NavLink href="/">Dashboard</NavLink> */}
             </Link>
           </NavItem>
