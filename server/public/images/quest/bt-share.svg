@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="17px" viewBox="0 0 56 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="linked" transform="translate(-205.000000, -5.000000)">
+            <g id="Group-5" transform="translate(10.691706, 0.691680)">
+                <g id="Group" transform="translate(195.000000, 4.000000)">
+                    <g id="Page-1" transform="translate(0.367762, 0.768352)">
+                        <path d="M0,16.0962042 C0,16.0962042 2.36628962,11.322162 8.44801722,11.322162 L10.5600215,11.322162 L10.5600215,16.0962042 L20.2752413,8.06713317 L10.5600215,0.0380621368 L10.5600215,4.81210438 L9.29281894,4.81210438 C2.82881857,5.28777258 0,9.84568091 0,16.0962042" id="Fill-1" fill="#FFFFFF"></path>
+                        <path d="M0,16.0962042 C0,16.0962042 2.36628962,11.322162 8.44801722,11.322162 L10.5600215,11.322162 L10.5600215,16.0962042 L20.2752413,8.06713317 L10.5600215,0.0380621368 L10.5600215,4.81210438 L9.29281894,4.81210438 C2.82881857,5.28777258 0,9.84568091 0,16.0962042 Z" id="Stroke-3" stroke="#9197A3" stroke-width="0.5"></path>
+                    </g>
+                    <text id="share" font-family=".AppleSystemUIFont" font-size="10.4" font-weight="normal" fill="#9197A3">
+                        <tspan x="28.057903" y="14.2675367">share</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
