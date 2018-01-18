@@ -11,6 +11,7 @@ import {
   NavbarBrand,
   DropdownToggle
 } from 'reactstrap';
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
 
@@ -61,7 +62,9 @@ class Header extends Component {
         {/* <NavbarToggler className="d-md-down-none" onClick={this.sidebarToggle}>&#9776;</NavbarToggler> */}
         <Nav className="d-md-down-none" navbar>
           <NavItem className="px-3">
-            <NavLink href="/">Dashboard</NavLink>
+            <Link to="/">Dashboard
+            {/* <NavLink href="/">Dashboard</NavLink> */}
+            </Link>
           </NavItem>
           {/* <NavItem className="px-3">
             <NavLink href="#">Users</NavLink>
