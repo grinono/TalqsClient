@@ -61,9 +61,7 @@ class Header extends Component {
         {/* <NavbarToggler className="d-md-down-none" onClick={this.sidebarToggle}>&#9776;</NavbarToggler> */}
         <Nav className="d-md-down-none" navbar>
           <NavItem className="px-3">
-            <Link to="/main">Dashboard
-            {/* <NavLink href="/">Dashboard</NavLink> */}
-            </Link>
+            <NavLink href="/main">Dashboard</NavLink>
           </NavItem>
           {/* <NavItem className="px-3">
             <NavLink href="#">Users</NavLink>
