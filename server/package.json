@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "meteor --settings devSettings.json",
+    "start": "meteor --settings devSettings.json -p 8080",
     "remote": "MONGO_URL=mongodb://biterSoft:dh48dfu932jkldsf23!dsfjhk432s@ds145230.mlab.com:45230/bitler meteor --settings settings.json",
     "remote4": "MONGO_URL=mongodb://biterSoft:dh48dfu932jkldsf23!dsfjhk432s@ds145230.mlab.com:45230/bitler meteor -p 4000 --settings settings.json",
     "deploy": "mup deploy"
