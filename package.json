@@ -1,18 +1,43 @@
 {
-  "name": "Bitler",
-  "version": "0.0.1",
+  "name": "create-react-app-redux",
+  "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "build-server": "node scripts/build-server.js",
-    "start-server": "cd server2 && yarn start",
-    "build-client": "node scripts/build-client.js",
-    "start-client": "cd client && yarn start",
-    "clean-build": "rimraf build",
-    "build": "npm-run-all -s build-server build-client",
-    "start": "cd client && yarn start",
-    "flow": "flow"
-  },
   "devDependencies": {
-    "npm-run-all": "^4.1.2"
-  }
+    "react-scripts": "^1.0.17"
+  },
+  "dependencies": {
+    "@appbaseio/reactivesearch": "^2.1.1",
+    "apollo-server-express": "^1.3.2",
+    "chart.js": "2.6.0",
+    "elasticsearch": "^14.0.0",
+    "font-awesome": "^4.7.0",
+    "history": "4.6.3",
+    "install": "^0.10.2",
+    "npm": "^5.6.0",
+    "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-addons-transition-group": "^15.6.0",
+    "react-chartjs-2": "2.5.6",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "next",
+    "react-typeform-embed": "^0.1.3",
+    "reactstrap": "^4.8.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "sanitize.css": "^5.0.0",
+    "simple-line-icons": "^2.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "heroku-postbuild": "cd server && yarn --production=false && yarn start",
+    "eject": "react-scripts eject",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+  },
+  "homepage": "https://cra-redux-router-thunk.herokuapp.com"
 }
