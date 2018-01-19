@@ -39,5 +39,8 @@
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
   },
-  "homepage": "https://cra-redux-router-thunk.herokuapp.com"
+  "homepage": "https://cra-redux-router-thunk.herokuapp.com",
+  "engines": {
+   "node": "8.4.0"
+ }
 }
