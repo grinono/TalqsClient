@@ -41,6 +41,6 @@
   },
   "homepage": "https://cra-redux-router-thunk.herokuapp.com",
   "engines": {
-   "node": "8.4.0"
- }
+    "node": "8.4.0"
+  }
 }
