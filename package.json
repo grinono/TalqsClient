@@ -9,7 +9,7 @@
     "start-client": "cd client && yarn start",
     "clean-build": "rimraf build",
     "build": "npm-run-all -s build-server build-client",
-    "start": "npm-run-all -p start-client start-server",
+    "start": "cd client && yarn start",
     "flow": "flow"
   },
   "devDependencies": {
